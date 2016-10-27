@@ -52,6 +52,10 @@ ul li {
   padding: .5em 0 0;
 }
 
+li {
+  border: 1px solid #a63f38;
+}
+
 a:hover {
   background-color: #a63f38;
 }

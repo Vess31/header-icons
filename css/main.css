@@ -11,12 +11,23 @@ header {
   background-color: #d05c2e;
 }
 
+h1 {
+  color: #fff;
+
+}
 .right {
   float: right;
-  width: 50%
+  width: 40px;
 }
 
 .left {
   float: left;
-  width: 50%
+  width: 40px;
+}
+
+a {
+  font-size: 1.125rem;
+  text-decoration: none;
+  color: #fff;
+  background-color: #d05c2e;
 }

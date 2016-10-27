@@ -1,5 +1,5 @@
 html {
-  font-family: "Merriweather", serif;
+  font-family: Merriweather, serif;
   box-sizing: border-box;
 }
 
@@ -15,7 +15,11 @@ header {
 h1 {
   color: #fff;
   text-align: center;
+  margin: 0;
+}
 
+body {
+  margin: 0;
 }
 
 .right {
@@ -32,10 +36,19 @@ a {
   font-size: 1.125rem;
   text-decoration: none;
   color: #fff;
+  padding: .4rem 0;
+}
+ul{
+  overflow: hidden;
+  list-style-type: none;
+  padding: 0;
 }
 
 ul li {
-  display: inline-block;
+  float: left;
+  width: 33.3333%;
+  text-align: center;
+  padding: .5em 0 0;
 }
 
 a:hover {

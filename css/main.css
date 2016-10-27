@@ -1,7 +1,17 @@
-html{
+html {
   font-family: 'Merriweather', serif;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
 }
 
 header {
   background-color: #d05c2e;
+}
+
+.right {
+  float: right;
+  width: 50%
 }

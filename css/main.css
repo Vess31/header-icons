@@ -9,6 +9,7 @@ html {
 
 header {
   background-color: #d05c2e;
+  line-height: 1.5;
 }
 
 h1 {
@@ -16,6 +17,7 @@ h1 {
   text-align: center;
 
 }
+
 .right {
   float: right;
   width: 40px;
@@ -31,8 +33,9 @@ a {
   text-decoration: none;
   color: #fff;
 }
-ul {
-  display: inline-block;;
+
+ul li {
+  display: inline-block;
 }
 
 a:hover {

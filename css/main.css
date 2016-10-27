@@ -13,6 +13,7 @@ header {
 
 h1 {
   color: #fff;
+  text-align: center;
 
 }
 .right {
@@ -29,5 +30,11 @@ a {
   font-size: 1.125rem;
   text-decoration: none;
   color: #fff;
-  background-color: #d05c2e;
+}
+ul {
+  display: inline-block;;
+}
+
+a:hover {
+  background-color: #a63f38;
 }

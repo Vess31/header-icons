@@ -16,6 +16,8 @@ h1 {
   color: #fff;
   text-align: center;
   margin: 0;
+  padding: .4rem 0 0;
+  display: block;
 }
 
 body {
@@ -25,11 +27,13 @@ body {
 .right {
   float: right;
   width: 40px;
+  padding: .5em 0 0;
 }
 
 .left {
   float: left;
   width: 40px;
+  padding: .5em 0 0;
 }
 
 a {
@@ -37,6 +41,7 @@ a {
   text-decoration: none;
   color: #fff;
   padding: .4rem 0;
+  display: block;
 }
 
 ul {
@@ -45,15 +50,14 @@ ul {
   padding: 0;
 }
 
+li {
+  border: 1px solid #a63f38;
+}
+
 ul li {
   float: left;
   width: 33.3333%;
   text-align: center;
-  padding: .5em 0 0;
-}
-
-li {
-  border: 1px solid #a63f38;
 }
 
 a:hover {
